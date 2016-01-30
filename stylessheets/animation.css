@@ -1,0 +1,259 @@
+@keyframes show {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+}
+*[data-role=animate-hide] {
+  animation: hide 1s ease forwards ;
+  transform-origin: left top;
+}
+*[data-role=animate-show] {
+  animation: show 1s ease forwards ;
+  transform-origin: left top;
+}
+@keyframes round {
+  0% {
+    transform: translate(40px, 0px);
+  }
+  2.77777778% {
+    transform: translate(39.39231012px, 6.94592711px);
+  }
+  5.55555556% {
+    transform: translate(37.58770483px, 13.68080573px);
+  }
+  8.33333333% {
+    transform: translate(34.64101615px, 20px);
+  }
+  11.11111111% {
+    transform: translate(30.64177772px, 25.71150439px);
+  }
+  13.88888889% {
+    transform: translate(25.71150439px, 30.64177772px);
+  }
+  16.66666667% {
+    transform: translate(20px, 34.64101615px);
+  }
+  19.44444444% {
+    transform: translate(13.68080573px, 37.58770483px);
+  }
+  22.22222222% {
+    transform: translate(6.94592711px, 39.39231012px);
+  }
+  25% {
+    transform: translate(0px, 40px);
+  }
+  27.77777778% {
+    transform: translate(-6.94592711px, 39.39231012px);
+  }
+  30.55555556% {
+    transform: translate(-13.68080573px, 37.58770483px);
+  }
+  33.33333333% {
+    transform: translate(-20px, 34.64101615px);
+  }
+  36.11111111% {
+    transform: translate(-25.71150439px, 30.64177772px);
+  }
+  38.88888889% {
+    transform: translate(-30.64177772px, 25.71150439px);
+  }
+  41.66666667% {
+    transform: translate(-34.64101615px, 20px);
+  }
+  44.44444444% {
+    transform: translate(-37.58770483px, 13.68080573px);
+  }
+  47.22222222% {
+    transform: translate(-39.39231012px, 6.94592711px);
+  }
+  50% {
+    transform: translate(-40px, 0px);
+  }
+  52.77777778% {
+    transform: translate(-39.39231012px, -6.94592711px);
+  }
+  55.55555556% {
+    transform: translate(-37.58770483px, -13.68080573px);
+  }
+  58.33333333% {
+    transform: translate(-34.64101615px, -20px);
+  }
+  61.11111111% {
+    transform: translate(-30.64177772px, -25.71150439px);
+  }
+  63.88888889% {
+    transform: translate(-25.71150439px, -30.64177772px);
+  }
+  66.66666667% {
+    transform: translate(-20px, -34.64101615px);
+  }
+  69.44444444% {
+    transform: translate(-13.68080573px, -37.58770483px);
+  }
+  72.22222222% {
+    transform: translate(-6.94592711px, -39.39231012px);
+  }
+  75% {
+    transform: translate(0px, -40px);
+  }
+  77.77777778% {
+    transform: translate(6.94592711px, -39.39231012px);
+  }
+  80.55555556% {
+    transform: translate(13.68080573px, -37.58770483px);
+  }
+  83.33333333% {
+    transform: translate(20px, -34.64101615px);
+  }
+  86.11111111% {
+    transform: translate(25.71150439px, -30.64177772px);
+  }
+  88.88888889% {
+    transform: translate(30.64177772px, -25.71150439px);
+  }
+  91.66666667% {
+    transform: translate(34.64101615px, -20px);
+  }
+  94.44444444% {
+    transform: translate(37.58770483px, -13.68080573px);
+  }
+  97.22222222% {
+    transform: translate(39.39231012px, -6.94592711px);
+  }
+  100% {
+    transform: translate(40px, 0px);
+  }
+}
+*[data-a*=animate-round] {
+  animation: round 2s linear infinite;
+}
+@keyframes quxian {
+  0% {
+    transform: translate(40px, 0px);
+  }
+  2.77777778% {
+    transform: translate(39.39231012px, 1.71010072px);
+  }
+  5.55555556% {
+    transform: translate(37.58770483px, 3.21393805px);
+  }
+  8.33333333% {
+    transform: translate(34.64101615px, 4.33012702px);
+  }
+  11.11111111% {
+    transform: translate(30.64177772px, 4.92403877px);
+  }
+  13.88888889% {
+    transform: translate(25.71150439px, 4.92403877px);
+  }
+  16.66666667% {
+    transform: translate(20px, 4.33012702px);
+  }
+  19.44444444% {
+    transform: translate(13.68080573px, 3.21393805px);
+  }
+  22.22222222% {
+    transform: translate(6.94592711px, 1.71010072px);
+  }
+  25% {
+    transform: translate(0px, 0px);
+  }
+  27.77777778% {
+    transform: translate(-6.94592711px, -1.71010072px);
+  }
+  30.55555556% {
+    transform: translate(-13.68080573px, -3.21393805px);
+  }
+  33.33333333% {
+    transform: translate(-20px, -4.33012702px);
+  }
+  36.11111111% {
+    transform: translate(-25.71150439px, -4.92403877px);
+  }
+  38.88888889% {
+    transform: translate(-30.64177772px, -4.92403877px);
+  }
+  41.66666667% {
+    transform: translate(-34.64101615px, -4.33012702px);
+  }
+  44.44444444% {
+    transform: translate(-37.58770483px, -3.21393805px);
+  }
+  47.22222222% {
+    transform: translate(-39.39231012px, -1.71010072px);
+  }
+  50% {
+    transform: translate(-40px, 0px);
+  }
+  52.77777778% {
+    transform: translate(-39.39231012px, 1.71010072px);
+  }
+  55.55555556% {
+    transform: translate(-37.58770483px, 3.21393805px);
+  }
+  58.33333333% {
+    transform: translate(-34.64101615px, 4.33012702px);
+  }
+  61.11111111% {
+    transform: translate(-30.64177772px, 4.92403877px);
+  }
+  63.88888889% {
+    transform: translate(-25.71150439px, 4.92403877px);
+  }
+  66.66666667% {
+    transform: translate(-20px, 4.33012702px);
+  }
+  69.44444444% {
+    transform: translate(-13.68080573px, 3.21393805px);
+  }
+  72.22222222% {
+    transform: translate(-6.94592711px, 1.71010072px);
+  }
+  75% {
+    transform: translate(0px, 0px);
+  }
+  77.77777778% {
+    transform: translate(6.94592711px, -1.71010072px);
+  }
+  80.55555556% {
+    transform: translate(13.68080573px, -3.21393805px);
+  }
+  83.33333333% {
+    transform: translate(20px, -4.33012702px);
+  }
+  86.11111111% {
+    transform: translate(25.71150439px, -4.92403877px);
+  }
+  88.88888889% {
+    transform: translate(30.64177772px, -4.92403877px);
+  }
+  91.66666667% {
+    transform: translate(34.64101615px, -4.33012702px);
+  }
+  94.44444444% {
+    transform: translate(37.58770483px, -3.21393805px);
+  }
+  97.22222222% {
+    transform: translate(39.39231012px, -1.71010072px);
+  }
+  100% {
+    transform: translate(40px, 0px);
+  }
+}
+*[data-a*=animate-quxian] {
+  animation: quxian 2s linear infinite;
+}

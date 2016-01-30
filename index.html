@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Canvas</title>
+
+		<script src="./JavaScript/jquery.js"></script>
+		<script src="./JavaScript/index.js"></script>
+		<script src="./JavaScript/canvas.js"></script>
+		<link rel="stylesheet" href="./stylessheets/font.css" />
+		<link rel="stylesheet" href="./stylessheets/index.css"/>
+	</head>
+
+	<body>
+	<div class="ww" style="height:100%;width:100%;position:relative;z-index: 100;">
+		<div class="left">
+			<div class="meau">
+				<div class="hasson guanli">文件
+					<ul class="son">
+						<li data-role = "onload">
+							<div class="clo" data-font="save" style="font-size: 22px;font-weight: 600;color:#fff;"></div>
+						</li>
+						<li data-role = "looked">预览</li>
+
+						<li data-role = "open">
+							<div class="clo" data-font="dkai" style="font-size: 22px;font-weight: 600;color:#fff;"></div>
+						</li>
+						<li data-role = "chexiao">撤销</li>
+						<li>关闭</li>
+					</ul>
+				</div>
+				<div class="hasson type">类型
+					<ul class="son">
+						<li data-role="stroke">化形</li>
+						<li data-role="fill">填充</li>
+					</ul>
+				</div>
+				<div class="hasson pencolor" title="画笔">
+					<div class="clo" data-font="xiantiaose" style="float:left;margin-left:10px;font-size: 26px;font-weight: 600;color: black;"></div>
+					<input type="color"  style="display: block;margin:auto auto;margin-top: 20px;">
+				</div>
+
+				<div class="hasson bgcolor">
+					<div class="clo" data-font="tianchong" style="float:left;margin-left:10px;font-size: 26px;font-weight: 600;color: black;"></div>
+					<input type="color"  style="display: block;margin:auto auto;margin-top: 20px;">
+				</div>
+				<div class="hasson lineWidth">线条
+					<ul class="son">
+						<li data-role="1">细</li>
+						<li data-role="4">中</li>
+						<li data-role="10">粗</li>
+					</ul>
+				</div>
+				<div class="hasson shapes">图形
+					<ul class="son">
+						<li data-role="line">
+							<div class="clo" data-font="xian" style="margin-left:10px;font-size: 26px;font-weight: 600;color:#fff;"></div>
+							</li>
+						<li data-role="rect">
+							<div class="clo" data-font="jvxin" style="margin-left:10px;font-size: 26px;font-weight: 600;color:#fff;"></div>
+							</li>
+						<li data-role="arc">圆</li>
+						<li data-role="pen">
+							<div class="clo" data-font="a" style="font-size: 22px;font-weight: 600;color:#fff;"></div>
+							</li>
+						<li data-role="five">
+							<div class="clo" data-font="five" style="margin-left:10px;font-size: 26px;font-weight: 600;color:#fff;"></div>
+							</li>
+					</ul>
+				</div>
+
+				<div class="hasson xpsize">橡皮
+					<ul class="son">
+						<li data-role="30">大</li>
+						<li data-role="20">中</li>
+						<li data-role="10">小</li>
+					</ul>
+				</div>
+
+				<div class="hasson xuanze ">选择
+				</div>
+				<div class="hasson zhuti">主题
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="xp">
+				<div class="zi" data-font="xiangpi" style="font-size:12px;color:red;text-align: center;line-height: 100%;"></div>
+			</div>
+			<div class="selectArry"></div>
+			<canvas height="580px" width="380px" ></canvas>
+			<div class="copy"></div>
+		</div>
+	</div>
+	<div class="bgbox" style="height:100%;width:100%;position:absolute;top:0;left:0;z-index: 1;">
+		<div class="gx" style="height:100%;width:100%;background:url(./images/da/1.jpg) no-repeat center center;background-size: cover;"></div>
+		<div class="gx" style="height:100%;width:100%;background:url(./images/da/2.jpg) no-repeat center center;background-size: cover;"></div>
+		<div class="gx" style="height:100%;width:100%;background:url(./images/da/3.jpg) no-repeat center center;background-size: cover;"></div>
+		<div class="gx" style="height:100%;width:100%;background:url(./images/da/4.jpg) no-repeat center center;background-size: cover;"></div>
+		<div class="gx" style="height:100%;width:100%;background:url(./images/da/5.jpg) no-repeat center center;background-size: cover;"></div>
+		<div class="gx" style="height:100%;width:100%;background:url(./images/da/6.jpg) no-repeat center center;background-size: cover;"></div>
+	</div>
+	<!--<div class="backbg">主题-->
+		<!--<ul>-->
+			<!--<li>-->
+				<!--<img src="./images/da/app.png" style="width:100%;height:100%;">-->
+			<!--</li>-->
+			<!--<li></li>-->
+			<!--<li></li>-->
+			<!--<li></li>-->
+		<!--</ul>-->
+	<!--</div>-->
+	</body>
+</html>
